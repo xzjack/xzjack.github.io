@@ -35,7 +35,7 @@ $ git config --global user.email zjie1one@gmail.com
 **查看修改后的差异**
 ```
 $ git diff # 不加参数即默认比较工作区与暂存区
-$ git diff <branch1> # 在master分支下执行，就代表比较master分支与branch1分支的差异
+$ git diff <branch name> # 在master分支下执行，就代表比较master分支与branch name分支的差异
 ```
 详见：https://www.cnblogs.com/qianqiannian/p/6010219.html
 **查看提交日志**
