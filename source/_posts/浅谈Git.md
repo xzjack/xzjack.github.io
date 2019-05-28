@@ -14,4 +14,19 @@ Debian系列：
 Windows
 https://git-scm.com/download/win
 
-安装完后右键就能使用Git Bash了，可以git version查看版本
+安装完后右键就能使用Git Bash了，可以`git version`查看版本
+
+## 用户信息配置 ##
+```
+$ git config --global user.name "xzjack" 
+$ git config --global user.email zjie1one@gmail.com
+```
+
+## 使用 ##
+![](浅谈Git/15323410401964.png)
+**初始化一个Git仓库**
+`$ git init`
+**添加文件到暂存区**
+`$ git add <file>`
+**添加到版本库**
+`$ git commit -m "description"`
