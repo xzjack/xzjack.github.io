@@ -110,11 +110,11 @@ live2d:
   model:
     use: histoire
   display: 
-    width: 110
-    height: 180
+    width: 200
+    height: 300
     position: right
     hOffset: 0
-    vOffset: -20
+    vOffset: 20
   mobile:
     show: false
     scale: 0.5
@@ -143,9 +143,3 @@ neat_js:
     - '**/jquery.fancybox.pack.js'
     - '**/index.js' 
 
-
-# 图片懒加载
-lazyload:
-  enable: true
-  # className: #可选 e.g. .J-lazyload-img
-  # loadingImg: #可选 eg. ./images/loading.png

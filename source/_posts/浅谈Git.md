@@ -34,8 +34,8 @@ $ git config --global user.email zjie1one@gmail.com
 `$ git status`
 **查看修改后的差异**
 ```
-$ git diff # 不加参数即默认比较工作区与暂存区
-$ git diff <branch name> # 在master分支下执行，就代表比较master分支与branch name分支的差异
+$ git diff  # 不加参数即默认比较工作区与暂存区
+$ git diff &lt;branch1&gt;  # 在master分支下执行，就代表比较master分支与branch1分支的差异
 ```
 详见：https://www.cnblogs.com/qianqiannian/p/6010219.html
 **查看提交日志**
@@ -43,10 +43,10 @@ $ git diff <branch name> # 在master分支下执行，就代表比较master分�
 **丢弃工作区的修改**
 `$ git checkout -- <file>`
 **丢弃暂存区的修改**
-```
+```txt
 分两步：
 第一步：把暂存区的修改撤销，重新放回工作区
-$ git reset HEAD <file> 
+$ git reset HEAD <file>
 第二步：撤销工作区的修改
 $ git checkout -- <file>
 ```
