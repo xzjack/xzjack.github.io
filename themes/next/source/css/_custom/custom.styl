@@ -1,0 +1,386 @@
+﻿// Custom styles.
+
+
+#header {
+	width: 100wh;
+	color: #fff;
+	background: linear-gradient(-45deg, #00ffff, #90ee90, #fff5ee, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+
+
+@media screen and (max-width:800px) {
+  body {
+      font-size: 14px;
+      line-height: 1.9;
+  }
+  code {
+      font-size: 14px;
+  }
+  pre {
+      font-size: 14px;
+  }
+}
+
+
+
+//博客标题样式
+.site-title{
+    //引用 有字库 的字体样式 比起直接加载七牛云上的中文字体或者本地字体 性能提升1.5-2.0秒左右
+    font-family: 'LiFanCaoShu_Fan198f96ef2d1f947'
+    font-size: 50px;
+    line-height: 40px;
+    letter-spacing: 4px;
+  }
+
+.site-title:hover {
+    transition: all 0.5s;
+    transform: scale(1.08);
+}
+
+.post-wordcount {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header-inner {
+    padding: 80px 0 50px;
+}
+
+
+//文章标题
+.posts-expand .post-title {
+    font-size: 22px;
+}
+.posts-expand .post-meta {
+    color: #555;
+}
+
+// 主页文章添加阴影效果，并设置背景色与透明度
+.page-home .post {
+   margin-top: 40px;
+   margin-bottom: 20px;
+   padding: 20px;
+   background: #fff;
+   opacity: 0.9;
+   -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, 1);
+   -moz-box-shadow: 0 0 5px rgba(202, 203, 204, 1);
+  }
+
+//设置背景图片后 设置非'首页'标签的透明度
+.page-post-detail .main-inner,.page-archive .main-inner{ 
+    padding: 30px 20px 30px 20px;
+    background: #fff;
+    opacity: 0.97;
+}
+
+//设置距离页面底部距离
+.main {
+  padding-bottom: 100px;
+}
+
+
+//归档样式
+.page-archive .post{
+	padding: 0px;
+}
+.posts-collapse .post {
+  margin: 10px 0;
+}
+
+
+// 菜单超链接字体大小
+.menu .menu-item a {
+  font-size: 14px;
+}
+.menu {
+    margin-top: 30px;
+}
+
+// 取出评论统计标题栏显示
+span.post-comments-count {
+    display: none;
+}
+
+// 由于<a>标签中有空格 导致文章开头分类于xxx不好看
+.post-category a{
+	display: inline-block;
+}
+
+// 文章内链接文本样式 
+.post-body p a { 
+    color: #0593d3; 
+    border-bottom: none; 
+    border-bottom: 1px solid #0593d3; 
+    &:hover { 
+        color: #309610; 
+        border-bottom: none; 
+        border-bottom: 1px solid #309610; 
+    } 
+}
+
+// 代码块 加圆角   
+.highlight { border-radius: 5px;}
+pre { border-radius: 5px;}
+
+
+// 修改选中字符的颜色
+/* webkit, opera, IE9 */
+::selection { 
+    background: #808080;
+    color: #ffffff; 
+}
+/* firefox */
+::-moz-selection { 
+    background: #808080;
+    color: #ffffff;    
+}
+
+
+// 修改按键（button）样式
+.btn {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #49b1f5;
+    background: #fff;
+    border: 2px solid #49b1f5;
+    text-decoration: none;
+    border-radius: 2px;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    line-height: 2;
+}
+// 按键（button）点击时样式
+.btn:hover {
+  border-color: #49b1f5;
+  color: #fff;
+  background: #49b1f5;
+}
+
+
+
+// 修改代码块或者图片与文字间的间距
+p {
+	margin: 0 0 10px 0;
+}
+.highlight {
+	margin: 0 0 0 0;
+}
+
+
+
+// 颜色块-黑
+span#inline-black {
+display:inline;
+padding:.2em .5em .2em;
+font-size:90%;
+font-weight:bold;
+line-height:1;
+color:#fff;
+text-align:center;
+white-space:nowrap;
+vertical-align:baseline;
+border-radius:0;
+background-color: #141414;
+}
+// 颜色块-绿
+span#inline-green {
+display:inline;
+padding:.2em .5em .2em;
+font-size:90%;
+font-weight:bold;
+line-height:1;
+color:#fff;
+text-align:center;
+white-space:nowrap;
+vertical-align:baseline;
+border-radius:0;
+background-color: #228b2b;
+}
+// 颜色块-蓝
+span#inline-blue {
+display:inline;
+padding:.2em .5em .2em;
+font-size:90%;
+font-weight:bold;
+line-height:1;
+color:#fff;
+text-align:center;
+white-space:nowrap;
+vertical-align:baseline;
+border-radius:0;
+background-color: #2780e3;
+}
+// 颜色块-紫
+span#inline-purple {
+display:inline;
+padding:.2em .5em .2em;
+font-size:90%;
+font-weight:bold;
+line-height:1;
+color:#fff;
+text-align:center;
+white-space:nowrap;
+vertical-align:baseline;
+border-radius:0;
+background-color: #9954bb;
+}
+// 颜色块-红
+span#inline-red {
+display:inline;
+padding:.2em .5em .2em;
+font-size:90%;
+font-weight:bold;
+line-height:1;
+color:#fff;
+text-align:center;
+white-space:nowrap;
+vertical-align:baseline;
+border-radius:0;
+background-color: #ff575c;
+}
+
+
+// 滚动条美化
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+::-webkit-scrollbar-button:start:increment,::-webkit-scrollbar-button:end:decrement {
+  display: none;
+}
+::-webkit-scrollbar-corner {
+  display: block;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgba(0,0,0,.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 8px;
+  background-color: rgba(0,0,0,.5);
+}
+::-webkit-scrollbar-track,::-webkit-scrollbar-thumb {
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+::-webkit-scrollbar-track:hover {
+  background-color: rgba(0,0,0,.15);
+}
+::-webkit-scrollbar-button:start {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button:end {
+  width: 10px;
+  height: 10px;
+}
+
+//顶部阅读进度条
+.top-scroll-bar {
+    position: fixed;
+    height: 3px;
+    top: 0;
+    left: 0;
+    transition-duration: 0.7s,0.7s;
+    transiton-property: width,background;
+    z-index: 99999;
+    display: none;
+    background: #37C6C0;
+}
+
+//去除顶部黑色线条
+.headband{
+	display: none;
+}
+
+//去除分类页面的「分类」两个字
+small{
+  display: none;
+}
+
+
+//代码块复制按钮
+.highlight-wrap {
+  //方便copy代码按钮（btn-copy）的定位
+  position: relative;
+}
+.btn-copy {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #eee;
+    background-image: linear-gradient(#fcfcfc,#eee);
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #333;
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+    padding: 2px 6px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    opacity: 0;
+}
+.btn-copy span {
+    margin-left: 5px;
+}
+.highlight:hover .btn-copy{
+  opacity: 1;
+}
