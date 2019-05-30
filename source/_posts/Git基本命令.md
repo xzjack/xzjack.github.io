@@ -1,5 +1,5 @@
 ---
-title: 浅谈Git
+title: Git基本命令
 date: 2019-04-28 07:02:16
 categories: 开发工具
 tags: Git
@@ -23,7 +23,7 @@ $ git config --global user.email zjie1one@gmail.com
 ```
 
 ## 使用 ##
-![](浅谈Git/15323410401964.png)
+![](Git基本命令/15323410401964.png)
 **初始化一个Git仓库**
 `$ git init`
 **添加文件到暂存区**
@@ -35,7 +35,7 @@ $ git config --global user.email zjie1one@gmail.com
 **查看修改后的差异**
 ```
 $ git diff  # 不加参数即默认比较工作区与暂存区
-$ git diff &lt;branch1&gt;  # 在master分支下执行，就代表比较master分支与branch1分支的差异
+$ git diff <branch1>  # 在master分支下执行，就代表比较master分支与branch1分支的差异
 ```
 详见：https://www.cnblogs.com/qianqiannian/p/6010219.html
 **查看提交日志**
