@@ -98,27 +98,6 @@ deploy:
   repo: git@github.com:xzjack/xzjack.github.io.git
   branch: master
 
-#小动物
-live2d:
-  enable: true
-  scriptFrom: local
-  pluginRootPath: live2dw/
-  pluginJsPath: lib/
-  pluginModelPath: assets/
-  tagMode: false
-  debug: false
-  model:
-    use: histoire
-  display: 
-    width: 200
-    height: 300
-    position: right
-    hOffset: 0
-    vOffset: 20
-  mobile:
-    show: false
-    scale: 0.5
-
 
 # hexo-neat
 # 博文压缩
@@ -142,4 +121,3 @@ neat_js:
     - '**/*.min.js'
     - '**/jquery.fancybox.pack.js'
     - '**/index.js' 
-

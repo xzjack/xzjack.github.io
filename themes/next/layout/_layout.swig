@@ -107,8 +107,6 @@
 <script type="text/javascript" src="/js/src/clipboard.min.js"></script>  
 <script type="text/javascript" src="/js/src/clipboard-use.js"></script>
 
-<!-- 彩带效果 -->
-<script type="text/javascript" src="js/src/zidingyi.js"></script>
 
 </body>
 </html>
