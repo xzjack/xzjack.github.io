@@ -6,11 +6,8 @@ tags: Git
 ---
 ## 安装 ##
 Linux 
-Redhat系列： 
-`$ sudo yum install git`
-Debian系列：
-`$ sudo apt-get install git`
-
+&emsp;Redhat系列：`$ sudo yum install git`
+&emsp;Debian系列：`$ sudo apt-get install git`
 Windows
 https://git-scm.com/download/win
 
@@ -55,3 +52,4 @@ $ git checkout -- <file>
 以上命令是返回上一个版本，在Git中，用HEAD表示当前版本，上一个版本就是HEAD^，上上一个版本是HEAD^^，往上100个版本写成HEAD~100。
 回退指定版本号：
 `$ git reset --hard commit_id`
+
