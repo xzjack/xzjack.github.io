@@ -74,9 +74,18 @@
     letter-spacing: 4px;
   }
 
+.brand{
+  color: #333;
+}
+
+a{
+  color: #333;
+}
+
 .site-title:hover {
     transition: all 0.5s;
     transform: scale(1.08);
+    color: #333;
 }
 
 .post-wordcount {
@@ -94,8 +103,18 @@
     font-size: 22px;
 }
 .posts-expand .post-meta {
-    color: #555;
+    color: #333;
 }
+
+//字体颜色黑色加深
+.posts-expand .post-title-link{
+  color: #000;
+}
+body{
+  color: #333;
+}
+
+
 
 // 主页文章添加阴影效果，并设置背景色与透明度
 .page-home .post {
@@ -388,4 +407,11 @@ small{
 //增大文末作者信息与文章的间距
 .post-copyright {
     margin: 5em 0 0;
+}
+
+.post-body h1{
+	background-image: linear-gradient(to right,#c1a2ce, #d6c0de, #f5eff7, #fff, #fff, #fff);
+	border-left: solid #915e74 4px;
+	padding: 6px 10% 6px 15px;
+
 }
