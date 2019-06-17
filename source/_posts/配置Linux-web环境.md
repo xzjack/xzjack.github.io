@@ -4,9 +4,7 @@ date: 2019-03-12 09:43:47
 categories: 开发环境搭建
 tags: [Linux,JDK,Tomcat,MySQL,Redis]
 ---
-
-** Linux版本说明 **
-CentOS下载地址: https://www.centos.org/download/
+<p style="font-size:22px;font-weight:bold;">Linux版本说明</p>CentOS下载地址: https://www.centos.org/download/
 需要VPN，下载DVD版的就好了
 ```
 [root@localhost ~]# cat /etc/redhat-release 
