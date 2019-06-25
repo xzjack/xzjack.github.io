@@ -1,11 +1,28 @@
 ---
-title: 我的简历 
+title: 
 date: 2019-03-14 10:42:03
 comments: false
 ---
+<br>
+
+{% cq %}
+
+If I should meet thee
+
+After long years,
+
+How should I greet thee?
+
+With silence and tears.
 
 <br>
-<span id="inline-blue">关于我</span>　
-2014-2018 西安科技大学
-Email: zjie1one@gmail.com
-QQ: 3226002003
+
+事隔经年 
+
+若我再遇见你
+
+我该如何问候你
+
+以眼泪？以沉默？
+
+{% endcq %}
