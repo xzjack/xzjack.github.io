@@ -5,19 +5,15 @@ $(function () {
 	bodyBgs[1] = "/images/2.jpg";
 	bodyBgs[2] = "/images/3.jpg";
 	bodyBgs[3] = "/images/4.jpg";
-	bodyBgs[4] = "/images/5.jpg";
-	bodyBgs[5] = "/images/6.jpg";
-	bodyBgs[6] = "/images/7.jpg";
-	var randomBgIndex = Math.round( Math.random() * 6 )+7;
+	bodyBgs[3] = "/images/5.jpg";
+
+	var randomBgIndex = Math.round( Math.random() * 4 )+4;
 
     $.backstretch([  
-    	  bodyBgs[randomBgIndex%7],
-    	  bodyBgs[(randomBgIndex+1)%7],
-    	  bodyBgs[(randomBgIndex-1)%7],
-    	  bodyBgs[(randomBgIndex+2)%7],
-    	  bodyBgs[(randomBgIndex-2)%7],
-    	  bodyBgs[(randomBgIndex+3)%7],
-    	  bodyBgs[(randomBgIndex-3)%7]
-          
+    	  bodyBgs[randomBgIndex%4],
+    	  bodyBgs[(randomBgIndex+1)%4],
+    	  bodyBgs[(randomBgIndex-1)%4],
+    	  bodyBgs[(randomBgIndex+2)%4],
+    	  bodyBgs[(randomBgIndex-2)%4]
     ], { duration: 60000, fade: 1000 });  
 });
