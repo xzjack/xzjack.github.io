@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>张某的博客</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://zhangmou.top/"/>
+  <updated>2019-11-27T17:38:07.589Z</updated>
+  <id>http://zhangmou.top/</id>
+  
+  <author>
+    <name>Jack Zhang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据库的主从复制</title>
+    <link href="http://zhangmou.top/2019/06/14/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/"/>
+    <id>http://zhangmou.top/2019/06/14/数据库的主从复制/</id>
+    <published>2019-06-14T08:37:42.000Z</published>
+    <updated>2019-11-27T17:38:07.589Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Thu Nov 28 2019 02:00:16 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;&lt;img src=&quot;/2019/06/14/数据库的主从复制/masterslave.png&quot; alt&gt;&lt;/p&gt;&lt;p&gt;&lt;center&gt;数据库的复制原理图&lt;/center&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开发环境搭建" scheme="http://zhangmou.top/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="主从复制" scheme="http://zhangmou.top/tags/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/"/>
+    
+      <category term="读写分离" scheme="http://zhangmou.top/tags/%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/"/>
+    
+      <category term="双机热备" scheme="http://zhangmou.top/tags/%E5%8F%8C%E6%9C%BA%E7%83%AD%E5%A4%87/"/>
+    
+      <category term="Mycat" scheme="http://zhangmou.top/tags/Mycat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>配置Linux web环境</title>
+    <link href="http://zhangmou.top/2019/03/12/%E9%85%8D%E7%BD%AELinux-web%E7%8E%AF%E5%A2%83/"/>
+    <id>http://zhangmou.top/2019/03/12/配置Linux-web环境/</id>
+    <published>2019-03-12T01:43:47.000Z</published>
+    <updated>2019-11-27T17:38:07.589Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Thu Nov 28 2019 02:00:16 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;font-size:22px;font-weight:700&quot;&gt;Linux版本说明&lt;/p&gt;CentOS下载地址: &lt;a href=&quot;https://www.centos.org/download/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.centos.org/download/&lt;/a&gt;&lt;br&gt;需要VPN，下载DVD版的就好了&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;[root@localhost ~]# cat /etc/redhat-release &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;CentOS Linux release 7.6.1810 (Core)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开发环境搭建" scheme="http://zhangmou.top/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="Linux" scheme="http://zhangmou.top/tags/Linux/"/>
+    
+      <category term="JDK" scheme="http://zhangmou.top/tags/JDK/"/>
+    
+      <category term="Tomcat" scheme="http://zhangmou.top/tags/Tomcat/"/>
+    
+      <category term="MySQL" scheme="http://zhangmou.top/tags/MySQL/"/>
+    
+      <category term="Redis" scheme="http://zhangmou.top/tags/Redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>将博客本地文件上传至GitHub</title>
+    <link href="http://zhangmou.top/2019/03/04/%E5%B0%86%E5%8D%9A%E5%AE%A2%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E8%87%B3GitHub/"/>
+    <id>http://zhangmou.top/2019/03/04/将博客本地文件上传至GitHub/</id>
+    <published>2019-03-03T16:03:00.000Z</published>
+    <updated>2019-11-27T17:38:07.589Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Thu Nov 28 2019 02:00:16 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;我们知道hexo是一个生成静态网页的博客框架，从_config.yml中可以看到我们&lt;code&gt;hexo d&lt;/code&gt;操作是将我们的静态文件推送到远程master分支上&lt;br&gt;&lt;/p&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;deploy:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  type:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;git&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  repo:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;git@github.com:xzjack/xzjack.github.io.git&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;  branch:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;master&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;那么假如有一天，我们的电脑坏了或者不在身边，那我们要怎么写博客呢？&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://zhangmou.top/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://zhangmou.top/tags/hexo/"/>
+    
+      <category term="Git" scheme="http://zhangmou.top/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git基本命令</title>
+    <link href="http://zhangmou.top/2019/02/28/Git%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/"/>
+    <id>http://zhangmou.top/2019/02/28/Git基本命令/</id>
+    <published>2019-02-27T23:02:16.000Z</published>
+    <updated>2019-11-27T17:38:07.589Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Thu Nov 28 2019 02:00:16 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;Linux&lt;br&gt;&amp;emsp;Redhat系列：&lt;code&gt;$ sudo yum install git&lt;/code&gt;&lt;br&gt;&amp;emsp;Debian系列：&lt;code&gt;$ sudo apt-get install git&lt;/code&gt;&lt;br&gt;Windows&lt;br&gt;&lt;a href=&quot;https://git-scm.com/download/win&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://git-scm.com/download/win&lt;/a&gt;&lt;/p&gt;&lt;p&gt;安装完后右键就能使用Git Bash了，可以&lt;code&gt;git version&lt;/code&gt;查看版本&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开发工具" scheme="http://zhangmou.top/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="Git" scheme="http://zhangmou.top/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DPlayer</title>
+    <link href="http://zhangmou.top/2019/02/19/Dplayer/"/>
+    <id>http://zhangmou.top/2019/02/19/Dplayer/</id>
+    <published>2019-02-19T06:38:08.000Z</published>
+    <updated>2019-11-27T17:38:07.573Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Thu Nov 28 2019 02:00:16 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;Hexo插入视频的方式—-&amp;gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;可以在各大视频网站，分享外链的方式插入文章&lt;/li&gt;&lt;li&gt;也可以使用H5视频播放器DPlayer&lt;br&gt;安装hexo插件&lt;br&gt;&lt;code&gt;npm install hexo-tag-dplayer --save&lt;/code&gt;&lt;br&gt;使用&lt;figure class=&quot;highlight md&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% dplayer &quot;url=视频地址.mp4&quot; &quot;pic=缩略图.jpg&quot; &quot;loop=yes&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://zhangmou.top/categories/hexo/"/>
+    
+    
+      <category term="DPlayer" scheme="http://zhangmou.top/tags/DPlayer/"/>
+    
+      <category term="hexo" scheme="http://zhangmou.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何搭建个人博客？</title>
+    <link href="http://zhangmou.top/2018/11/14/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://zhangmou.top/2018/11/14/搭建个人博客/</id>
+    <published>2018-11-14T09:23:10.000Z</published>
+    <updated>2019-11-27T17:38:07.589Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Thu Nov 28 2019 02:00:16 GMT+0800 (GMT+08:00) --&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;答：利用 GitHub Pages + Hexo 搭建博客&lt;/p&gt;&lt;/blockquote&gt;&lt;h1 id=&quot;前期准备&quot;&gt;&lt;a href=&quot;#前期准备&quot; class=&quot;headerlink&quot; title=&quot;前期准备&quot;&gt;&lt;/a&gt;前期准备&lt;/h1&gt;&lt;p&gt;准备环境与工具：Node.js、npm、Git、GitHub账号、域名&lt;br&gt;&lt;span id=&quot;inline-blue&quot;&gt;我的环境&lt;/span&gt;&lt;br&gt;OS:　win10&lt;br&gt;Node.js:　v10.15.3&lt;br&gt;npm:　6.4.1&lt;br&gt;Git:　2.7.2.windows.1&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://zhangmou.top/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://zhangmou.top/tags/hexo/"/>
+    
+      <category term="blog" scheme="http://zhangmou.top/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>First Blog</title>
+    <link href="http://zhangmou.top/2018/11/05/First-Blog/"/>
+    <id>http://zhangmou.top/2018/11/05/First-Blog/</id>
+    <published>2018-11-05T15:57:41.000Z</published>
+    <updated>2019-11-27T17:38:07.573Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;!-- build time:Thu Nov 28 2019 02:00:16 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;&lt;center&gt;你没有如期归来&lt;br&gt;而这正是离别的意义&lt;/center&gt;&lt;br&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="生活" scheme="http://zhangmou.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="诗歌" scheme="http://zhangmou.top/tags/%E8%AF%97%E6%AD%8C/"/>
+    
+  </entry>
+  
+</feed>
