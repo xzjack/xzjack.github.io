@@ -111,6 +111,7 @@
 <!-- <script type="text/javascript" src="https://cdn.bootcss.com/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
 <script type="text/javascript" src="/js/src/custom1.js"></script> -->
 
+<script type="text/javascript" src="/js/src/background.js"></script>
 
 </body>
 </html>
